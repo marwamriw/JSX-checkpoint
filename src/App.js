@@ -19,13 +19,13 @@ const App = () => {
         <Card.Body className="cardBody">
           {/* import the  object of product */}
           {/* import the component name*/}
-          <Name name={product.name} />
+          <Name  />
           {/* import the component price*/}
-          <Price price={product.price} />
+          <Price  />
           {/* import the component description*/}
-          <Description description={product.description} />
+          <Description  />
           {/*  import the component image*/}
-          <Image image={product.image} />
+          <Image  />
         </Card.Body>
       </Card>
     {/* display a meesage below a card*/}
